@@ -9,6 +9,3 @@ class PostViewset(viewsets.ModelViewSet):
       permissions.AllowAny
     ]
     serializer_class = PostSerializer
-
-    # def get_queryset(self):
-    #     return self.request.user.posts.all()
